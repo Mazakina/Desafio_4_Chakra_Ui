@@ -1,0 +1,9 @@
+{
+  "id": "countries",
+  "label": "countries",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

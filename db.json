@@ -1,0 +1,153 @@
+{
+    "continentes":[
+        {
+            
+            "id":"oceania",
+            "name":"Oceania",
+            "banner":"/images/SwipeHome/Oceania.jpg",
+            "bannerDesc":"Lar de lugares preciosos",
+            "content":{
+                "landingImg":"https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2020/07/fotos-oceania.jpg.webp",
+                "description":" 9 milhões de km² de paisagens paradisíacas, tradições de civilizações aborígenes e cultura europeia, e cidades cheias de atrativos.",
+                "cities":[
+                    {
+                        "name":"Sydney",
+                        "img":"https://upload.wikimedia.org/wikipedia/commons/a/a0/Sydney_opera_house_and_skyline.jpg",
+                        "homeCountry":"Austrália",
+                        "icon":"GiEarthAsiaOceania"
+                    },
+                    {
+                        "name":"Melbourne",
+                        "img":"https://upload.wikimedia.org/wikipedia/commons/7/74/Melbourne_skyline_sor.jpg",
+                        "homeCountry":"Austrália",
+                        "icon":"GiEarthAsiaOceania"
+                    },
+                    {
+                        "name":"Macáçar",
+                        "img":"https://upload.wikimedia.org/wikipedia/commons/f/f1/Makassar_CBD_Skyline.jpg",
+                        "homeCountry":"Indonésia",
+                        "icon":"GiEarthAsiaOceania"
+                    },
+                    {
+                        "name":"Gold Coast ",
+                        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/View-from-Q1-looking-north.jpg/1280px-View-from-Q1-looking-north.jpg",
+                        "homeCountry":"Austrália",
+                        "icon":"GiEarthAsiaOceania"
+                    }
+                ]
+            }
+        },
+        {
+            "id":"europa",
+            "name":"Europa",
+            "banner":"/images/SwipeHome/Londres.jpg",
+            "bannerDesc":"O Continente mais antigo",
+            "content":{
+                "landingImg":"https://midia.gruposinos.com.br/_midias/jpg/2021/05/21/800x500/1_adobestock_303500976_editorial_use_only-19640300.jpeg?ims=900x",
+                "description":"A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+                "cities":[
+                    {
+                        "name":"Viena",
+                        "img":"https://www.melhoresdestinos.com.br/wp-content/uploads/2019/08/viena-austria.jpg",
+                        "homeCountry":"Áustria",
+                        "icon":"GiEarthAfricaEurope"
+                    },
+                    {
+                        "name":"Roma",
+                        "img":"https://www.melhoresdestinos.com.br/wp-content/uploads/2017/09/roma-italia_1067.jpg",
+                        "homeCountry":"Itália",
+                        "icon":"GiEarthAfricaEurope"
+                    },
+                    {
+                        "name":"Sevilha",
+                        "img":"https://www.melhoresdestinos.com.br/wp-content/uploads/2019/08/seville-espanha.jpg",
+                        "homeCountry":"Espanha",
+                        "icon":"GiEarthAfricaEurope"
+                    },
+                    {
+                        "name":"Porto",
+                        "img":"https://www.melhoresdestinos.com.br/wp-content/uploads/2018/05/ponte-dom-luis-porto-portugal.jpg",
+                        "homeCountry":"Portugal",
+                        "icon":"GiEarthAfricaEurope"
+                    }
+                ]
+            }
+        },
+        {
+            "id":"latam",
+            "name":"América Latina",
+            "banner":"/images/SwipeHome/Arg.jpg",
+            "bannerDesc":"Conheça as mais diferentes culturas perto de você",
+            "content":{
+                "landingImg":"https://www.voltologo.net/wp-content/uploads/2015/04/ilhas-na-america-latina.jpg.webp",
+                "description":"A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+                "cities":[
+                    {
+                        "name":"Glaciar Perito Moreno",
+                        "img":"https://www.voltologo.net/wp-content/uploads/2015/04/geleiras-america-latina.jpg.webp",
+                        "homeCountry":"Argentina",
+                        "icon":"GiEarthAmerica"
+                    },
+                    {
+                        "name":"Caye Caulker",
+                        "img":"https://www.voltologo.net/wp-content/uploads/2015/04/america-latina-melhores-destinos.jpg.webp",
+                        "homeCountry":"Belize",
+                        "icon":"GiEarthAmerica"
+                    },
+                    {
+                        "name":"Semuc Champey",
+                        "img":"https://www.voltologo.net/wp-content/uploads/2015/04/natureza-america-latina.jpg.webp",
+                        "homeCountry":"Guatemala",
+                        "icon":"GiEarthAmerica"
+                    },
+                    {
+                        "name":"Vulcão Santa Ana",
+                        "img":"https://www.voltologo.net/wp-content/uploads/2015/04/vulcoes-america-latina.jpg.webp",
+                        "homeCountry":"El Salvador",
+                        "icon":"GiEarthAmerica"
+                    }
+                ]
+            }
+        },
+        {
+            "id":"asia",
+            "name":"Asia",
+            "banner":"/images/SwipeHome/Tailandia.jpg",
+            "bannerDesc":"Praias paradisiacas e berço das mais antigas civilizações",
+            "content":{
+                "landingImg":"https://www.voltologo.net/wp-content/uploads/2015/04/ilhas-na-america-latina.jpg.webp",
+                "description":"O continente asiático atende a todos os gostos e idades. É ideal para conhecer lugares exóticos e inusitados, com outra cultura, curtir um sol e mar de águas transparentes, ir para baladas totalmente diferentes das brasileiras ou até mesmo exercitar sua espiritualidade",
+                "cities":[
+                    {
+                        "name":"Seul",
+                        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/%ED%95%9C%EC%96%91%EB%8F%84%EC%84%B1%EB%82%99%EC%82%B0%EA%B5%AC%EA%B0%84.jpg/1280px-%ED%95%9C%EC%96%91%EB%8F%84%EC%84%B1%EB%82%99%EC%82%B0%EA%B5%AC%EA%B0%84.jpg",
+                        "homeCountry":"Coreia do Sul",
+                        "icon":"GiEarthAsiaOceania"
+
+                    },
+                    {
+                        "name":"Mumbai",
+                        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mumbai_Skyline_at_Night.jpg/1920px-Mumbai_Skyline_at_Night.jpg",
+                        "homeCountry":"Índia",
+                        "icon":"GiEarthAsiaOceania"
+                    },
+                    {
+                        "name":"Hong Kong",
+                        "img":"https://media.istockphoto.com/photos/aerial-view-of-aberdeen-typhoon-shelters-and-ap-lei-chau-hong-kong-picture-id1223949557?k=20&m=1223949557&s=612x612&w=0&h=64PKDUy2CfUYa9p29hDL2Xf9Yd_1BVQEwsgi1eobYAc=",
+                        "homeCountry":"China",
+                        "icon":"GiEarthAsiaOceania"
+
+                    },
+                    {
+                        "name":"Tóquio",
+                        "img":"https://static.preparaenem.com/2021/06/cruzamento-movimentado-em-toquio.jpg",
+                        "homeCountry":"Japão",
+                        "icon":"GiEarthAsiaOceania"
+
+                    }
+                ]
+            }
+        }
+
+    ]
+}
