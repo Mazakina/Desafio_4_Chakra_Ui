@@ -1,7 +1,7 @@
 import { Box , Flex, Img, Text, Tooltip} from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
-import Cities from "../../components/cities";
+import Cities from "../../components/Cities";
 import { jsonDb } from "../../services/jsonDb";
 import {AiOutlineInfoCircle} from 'react-icons/ai'
 type HomeSlideProps ={
@@ -23,7 +23,7 @@ export default function continentes({name,continent,content}){
                     <Box 
                  bgImage={`${content.landingImg}`} 
                  w={'100%'} 
-                 h='500' 
+                 h={['40vh',null,'500']}
                  backgroundPosition="center"
                  bgSize='cover'
                  bgRepeat={`no-repeat`} 
@@ -52,28 +52,32 @@ export default function continentes({name,continent,content}){
                         </Box>
                     </Box>
                     <Flex maxW={ `1160px`} mx='1rem' mt={`5rem`} mb='2rem'flexFlow={`column`}>
-                        <Flex mb={'5rem'} justifyContent={'space-between'}>
-                            <Text fontFamily={'poppins'} fontSize='1.5rem' textAlign='justify' fontWeight='400' color={'gray.600'} maxW={`45%`}>
+                        <Flex
+                             mb={'5rem'} 
+                            flexFlow={['column',null,'row']}
+                            justifyContent={'space-between'}>
+                            <Text fontFamily={'poppins'} fontSize='1.5rem' textAlign='justify' fontWeight='400' color={'gray.600'} maxW={['90%',null,`45%`]}>
                                 {content.description}
                             </Text>
 
                             <Flex 
-                            w={'45%'}
+                            mt={'1.5rem'}
+                            w={['90%',null,`45%`]}
                             justify={'space-around'}
                             alignItems={'center'}
                             >
                                 <Flex alignItems={'center'} flexFlow={'column'}>
-                                    <Text color={'#FFBA08'} fontWeight='semibold' fontSize='3rem'>50</Text>                                
-                                    <Text color={'gray.500'} fontWeight='semibold' fontSize='1.5rem'>Países</Text>                                
+                                    <Text color={'#FFBA08'} fontWeight='semibold' fontSize={['2rem',null,'3rem']}>50</Text>                                
+                                    <Text color={'gray.500'} fontWeight={['regular','semibold']} fontSize={['18px',null,'1.5rem']}>Países</Text>                                
                                 </Flex>
                                 <Flex alignItems={'center'} flexFlow={'column'}>
-                                    <Text color={'#FFBA08'} fontWeight='semibold' fontSize='3rem'>60</Text>                                
-                                    <Text color={'gray.500'} fontWeight='semibold' fontSize='1.5rem'>Linguas</Text>                                
+                                    <Text color={'#FFBA08'} fontWeight='semibold' fontSize={['2rem',null,'3rem']}>60</Text>                                
+                                    <Text color={'gray.500'} fontWeight={['regular','semibold']} fontSize={['18px',null,'1.5rem']}>Linguas</Text>                                
                                 </Flex>
                                 <Flex alignItems={'center'} flexFlow={'column'}>
-                                    <Text color={'#FFBA08'} fontWeight='semibold' fontSize='3rem'>27</Text>                                
+                                    <Text color={'#FFBA08'} fontWeight='semibold' fontSize={['2rem',null,'3rem']}>27</Text>                                
                                     <Flex align={'center'}> 
-                                        <Text mr={'.5rem'} color={'gray.500'} fontWeight='semibold' fontSize='1.5rem'>cidades +100</Text>   
+                                        <Text mr={'.5rem'} color={'gray.500'} fontWeight={['regular',null,'semibold']} fontSize={['18px',null,'1.5rem']}>cidades +100</Text>   
                                         <Tooltip label='As 100 cidades mais visitadas'><a><AiOutlineInfoCircle/></a></Tooltip>
                                     </Flex>                              
                                 </Flex>
